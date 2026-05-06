@@ -73,15 +73,21 @@
       <p>I have experience across the full lifecycle of security systems, from theoretical foundations through to practical deployment. My approach combines rigorous mathematical analysis with an understanding of real-world operational constraints.</p>
     </section>
 
+    <section>
+      <p>I am based in Perth, Western Australia.</p>
+    </section>
+
     <!--
       Writing section to be added once Substack / LinkedIn / etc. are live.
-      When adding, also add "sameAs" array to the JSON-LD Person schema above,
-      listing all profile URLs. Example:
-        "sameAs": [
-          "https://stephenpaulasher.substack.com",
-          "https://www.linkedin.com/in/stephenpaulasher",
-          "https://github.com/stephenpaulasher"
-        ]
+      Suggested structure:
+
+      <section>
+        <h2>Writing</h2>
+        <ul>
+          <li><a href="">Substack</a></li>
+          <li><a href="">LinkedIn</a></li>
+        </ul>
+      </section>
     -->
 
   </main>
