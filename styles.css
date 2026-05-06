@@ -1,0 +1,92 @@
+/* Stephen Paul Asher — bio site */
+
+:root {
+  --text: #1a1a1a;
+  --bg: #fafafa;
+  --muted: #555;
+  --rule: #e0e0e0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 6rem;
+}
+
+header {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: normal;
+  margin: 0 0 0.25rem;
+  letter-spacing: 0.01em;
+}
+
+.role {
+  margin: 0;
+  color: var(--muted);
+  font-style: italic;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: italic;
+  color: var(--muted);
+  margin: 2.5rem 0 0.75rem;
+}
+
+section {
+  margin-bottom: 1.5rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: var(--muted);
+}
+
+@media (max-width: 480px) {
+  html { font-size: 17px; }
+  main { padding: 2.5rem 1.25rem 4rem; }
+}
